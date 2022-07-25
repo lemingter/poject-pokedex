@@ -1,7 +1,78 @@
 .Pokedex {
+    flex: 1;
     text-align: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("https://images5.alphacoders.com/389/389247.png");
+    padding-bottom: 5%;
 }
 
-.Pokedex h1 {
-    align-self: center;
+.Pokedex .PokedexContainer {
+    background-color: #c4001d;
+    width: 40%;
+    margin-left: 30%;
+    padding-bottom: 15px;
+    border-radius: 20%;
+}
+
+.Pokedex .PokedexContainer .title {
+    background-color: #d50000;
+    font-size: 50px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    border-bottom: 3px solid #000;
+}
+
+.Pokedex .PokedexContainer .sprite {
+    justify-content: center;
+    background-color: #fff;
+    width: 40%;
+    margin-left: 30%;
+    border-radius: 200px;
+    border: 2px solid #000;
+}
+
+.Pokedex .name {
+    background-color: #ff1744;
+    font-weight: bold;
+    font-size: 40px;
+    width: 60%;
+    margin: 2% 20%;
+    border: 2px solid #000;
+}
+
+.Pokedex button {
+    margin: 3% 15%; 
+    border-radius: 30%;
+}
+
+.Pokedex select {
+    display: inline-block;
+	width: 30%;
+	cursor: pointer;
+  	padding: 7px 10px;
+  	height: 42px;
+  	outline: 0; 
+  	border: 0;
+	border-radius: 0;
+	background: #f0f0f0;
+	font-size: 1em;
+	color: rgb(0, 0, 0);
+	font-family: 
+	'Quicksand', sans-serif;
+	border:2px solid rgba(0,0,0,0.2);
+    border-radius: 12px;
+    position: relative;
+    transition: all 0.25s ease;
+    margin: auto 5px;
+}
+
+.Pokedex .Stats {
+    background-color: #78909c;
+    border: 2px solid #000;
+    border-radius: 50px;
+    margin-left: 20px;
+    width: 20%;
 }
