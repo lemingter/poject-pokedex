@@ -151,8 +151,8 @@ function Pokedex(props) {
                         alt="Sprite" width="150" height="150"/>
                 </div>
                 <div className="arrows">
-                    <button onClick={prevPokemon}><i class="fa fa-arrow-left fa-4x" aria-hidden="true"></i></button>
-                    <button onClick={nextPokemon}><i class="fa fa-arrow-right fa-4x" aria-hidden="true"></i></button>
+                    <button onClick={prevPokemon}><i className="fa fa-arrow-left fa-4x" aria-hidden="true"></i></button>
+                    <button onClick={nextPokemon}><i className="fa fa-arrow-right fa-4x" aria-hidden="true"></i></button>
                 </div>
                 <div>
                     <select name="type" onChange={handleOnChange}>
